@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Spotify Search</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="neoncontainer" data-text="[Spotify_Search]">
+        [Spotify_Search]
+      </div>
+      <div class="searchdiv">
+        <input type="text" name="user-input" />
+        <select>
+          <option id="artist">artist</option>
+          <option id="album">album</option>
+        </select>
+        <button id="submit-button">submit</button>
+      </div>
+
+      <div id="results-container"></div>
+
+      <div id="button" class="hidden">
+        <button id="more">more</button>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
