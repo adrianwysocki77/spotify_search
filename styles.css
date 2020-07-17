@@ -122,7 +122,7 @@ button {
   font-family: "Quicksand", sans-serif;
   color: #fff;
   text-shadow: 0 0 20px #1db954;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 
 .neoncontainer:after {
@@ -131,19 +131,20 @@ button {
   z-index: -1;
   color: #1db954;
   filter: blur(15px);
-  border: 2px solid pink;
 }
 
 .neoncontainer:before {
   content: "";
-  max-width: 450px;
+  width: 900px;
+  /* width: 50%; */
+
   height: 80px;
   position: absolute;
   background: #179443;
   z-index: -2;
   opacity: 0.5;
   filter: blur(30px);
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
 }
 
 .searchdiv {
@@ -186,11 +187,18 @@ button {
   .neoncontainer {
     font-size: 7.5em;
   }
+
+  .neoncontainer:before {
+    width: 500px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .neoncontainer {
     font-size: 7em;
+  }
+  .neoncontainer:before {
+    width: 300px;
   }
 }
 
@@ -220,9 +228,6 @@ button {
     margin-bottom: 0px;
   }
 
-  .neoncontainer:before {
-    width: 400px;
-  }
   input {
     width: 200px;
     margin-right: 3px;
@@ -236,10 +241,6 @@ button {
 @media screen and (max-width: 400px) {
   .neoncontainer {
     font-size: 2em;
-  }
-
-  .neoncontainer:before {
-    width: 300px;
   }
 
   input {
