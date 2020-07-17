@@ -22,5 +22,3 @@ When you scroll down to the bottom of the results page infinite scroll will fetc
 ![img](./images_readme/3.png)
 
 ---
-
----
