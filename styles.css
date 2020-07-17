@@ -199,7 +199,7 @@ button {
     font-size: 7em;
   }
   .neoncontainer:before {
-    width: 300px;
+    width: 600px;
   }
 }
 
@@ -230,7 +230,7 @@ button {
   }
 
   .neoncontainer:before {
-    width: 300px;
+    width: 400px;
   }
 
   input {
