@@ -122,27 +122,29 @@ button {
   font-family: "Quicksand", sans-serif;
   color: #fff;
   text-shadow: 0 0 20px #1db954;
-  /* border: 2px solid pink; */
+  border: 2px solid yellow;
 }
 
-/* .neoncontainer:after {
+.neoncontainer:after {
   content: attr(data-text);
   position: absolute;
   z-index: -1;
   color: #1db954;
   filter: blur(15px);
-} */
+  border: 2px solid pink;
+}
 
-/* .neoncontainer:before {
+.neoncontainer:before {
   content: "";
-  width: 450px;
+  max-width: 450px;
   height: 80px;
   position: absolute;
   background: #179443;
   z-index: -2;
   opacity: 0.5;
   filter: blur(30px);
-} */
+  border: 2px solid pink;
+}
 
 .searchdiv {
   display: flex;
