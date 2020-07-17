@@ -136,15 +136,12 @@ button {
 .neoncontainer:before {
   content: "";
   width: 900px;
-  /* width: 50%; */
-
   height: 80px;
   position: absolute;
   background: #179443;
   z-index: -2;
   opacity: 0.5;
   filter: blur(30px);
-  /* border: 2px solid pink; */
 }
 
 .searchdiv {
