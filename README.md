@@ -1,6 +1,7 @@
 ### Spotify Search
 
 Search for albums or artists using Spotify API. Find your favorite music without logging in!
+
 ![img](./images_readme/1.png)
 
 ---
