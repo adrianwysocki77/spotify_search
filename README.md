@@ -2,6 +2,8 @@
 
 Search for albums or artists using Spotify API. Find your favorite music without logging in!
 
+https://spotifysearch1.herokuapp.com
+
 ![img](./images_readme/1.png)
 
 ---
